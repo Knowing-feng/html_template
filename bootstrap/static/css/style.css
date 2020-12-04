@@ -1,0 +1,156 @@
+body {
+    background-color: #f3f3f4;
+}
+ul li a > span {
+    width: 20px
+}
+
+ul li a {
+    color: #a7b1c2;
+    font-weight: bold;
+
+}
+
+ul li a:focus, ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline
+}
+
+.navbar-responsive-collapse>ul.nav {
+    background-color: #2f4050;
+    padding: 18px 0 0 0;
+    margin: 0;
+    height: 100vmax;
+}
+
+.arrow {
+    float: right;
+}
+
+.panel:hover,
+.panel:focus,
+.nav > li > a:focus,
+.nav > li > a:hover {
+    text-decoration: none;
+    background-color: #293846;
+    color: white;
+}
+
+.panel {
+    margin-bottom: 0;
+    background-color: #2f4050;
+    border: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px #2f4050;
+}
+
+.panel-collapse > ul {
+    background-color: #293846;
+}
+
+.nav-pills > li.active > a {
+    background-color: #293846 !important;
+    color: white;
+}
+
+.navbar-responsive-collapse>ul.nav > li.active {
+    background-color: #293846 !important;
+    color: white;
+    border-left: 6px solid #19aa8d;
+}
+
+.panel-body {
+    padding: 7px 10px 7px 52px;
+}
+
+.panel-body > li {
+    margin: 4px 0;
+}
+
+.panel-heading > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.panel-heading > a:focus,
+.panel-heading > a:hover {
+    text-decoration: none;
+}
+
+.panel-heading {
+    padding: 0;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.nav-hander {
+    height: 60px;
+    border-bottom: #e5e5e5 solid 1px;
+    background-color: white;
+}
+
+.hander-button {
+    font-size: 15px;
+    display: block;
+    height: 60px;
+    padding: 18px 10px 18px 18px;
+    text-decoration: none;
+    color: #888888;
+    font-weight: bold;
+}
+
+.hander-button:hover {
+    text-decoration: none;
+}
+
+.nav-hander > .breadcrumb {
+    padding: 20px 0 0 20px;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    color: #7f7d7d;
+}
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+.alert-padding {
+    padding-left: 30px;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border-color: white;
+    border-bottom-color: transparent;
+}
+.ibox-content {
+    background-color: white;
+    padding: 15px 20px 20px 20px;
+}
+.hr-line-dashed{
+    border-top: 1px dashed #e7eaec;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 1px;
+    margin: 20px 0;
+}
+.logo {
+    padding: 0 0 0 30px;
+    background-color: #2f4050
+}
+.navbar-globe {
+    padding-left: 12px;
+    padding-right: 0;
+}
+.row {
+    margin-right: 0;
+}
