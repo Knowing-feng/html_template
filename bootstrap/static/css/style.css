@@ -154,3 +154,6 @@ ul li a:focus, ul li a:hover {
 .row {
     margin-right: 0;
 }
+.container-fluid {
+    padding: 0;
+}
